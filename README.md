@@ -1,0 +1,2 @@
+# CRM
+ A CRM application built with React, TypeScript, and CSS that allows users to manage leads and prospects. The interface features a form to input lead details, validate them, and display the results. Valid leads are converted into prospects with detailed cards, while failed validations are highlighted with error messages and status indicators. The design prioritizes simplicity and functionality for effective lead management.
