@@ -1,0 +1,100 @@
+{
+    "people": [
+        {
+            "nationalId": "1",
+            "firstName": "Andres",
+            "lastName": "Parra",
+            "birthdate": "11/08/2000",
+            "email": "andres.parra@example.com",
+            "hasJudicialRecords": false
+        },
+        {
+            "nationalId": "2",
+            "firstName": "Karen",
+            "lastName": "Rincon",
+            "birthdate": "12/15/2001",
+            "email": "karen.rincon@example.com",
+            "hasJudicialRecords": true
+        },
+        {
+            "nationalId": "3",
+            "firstName": "Alice",
+            "lastName": "Johnson",
+            "birthdate": "09/30/1992",
+            "email": "alice.johnson@example.com",
+            "hasJudicialRecords": false
+        },
+        {
+            "nationalId": "4",
+            "firstName": "Bob",
+            "lastName": "Williams",
+            "birthdate": "12/10/1988",
+            "email": "bob.williams@example.com",
+            "hasJudicialRecords": false
+        },
+        {
+            "nationalId": "5",
+            "firstName": "Carlos",
+            "lastName": "Ramirez",
+            "birthdate": "03/22/1995",
+            "email": "carlos.ramirez@example.com",
+            "hasJudicialRecords": false
+        },
+        {
+            "nationalId": "6",
+            "firstName": "Maria",
+            "lastName": "Gomez",
+            "birthdate": "08/10/1990",
+            "email": "maria.gomez@example.com",
+            "hasJudicialRecords": true
+        },
+        {
+            "nationalId": "7",
+            "firstName": "Juan",
+            "lastName": "Lopez",
+            "birthdate": "07/18/1985",
+            "email": "juan.lopez@example.com",
+            "hasJudicialRecords": false
+        },
+        {
+            "nationalId": "8",
+            "firstName": "Diana",
+            "lastName": "Martinez",
+            "birthdate": "06/14/1998",
+            "email": "diana.martinez@example.com",
+            "hasJudicialRecords": true
+        },
+        {
+            "nationalId": "9",
+            "firstName": "Felipe",
+            "lastName": "Castro",
+            "birthdate": "04/02/1993",
+            "email": "felipe.castro@example.com",
+            "hasJudicialRecords": false
+        },
+        {
+            "nationalId": "10",
+            "firstName": "Luisa",
+            "lastName": "Hernandez",
+            "birthdate": "01/25/2002",
+            "email": "luisa.hernandez@example.com",
+            "hasJudicialRecords": false
+        },
+        {
+            "nationalId": "11",
+            "firstName": "Camilo",
+            "lastName": "Torres",
+            "birthdate": "05/11/1997",
+            "email": "camilo.torres@example.com",
+            "hasJudicialRecords": true
+        },
+        {
+            "nationalId": "12",
+            "firstName": "Paola",
+            "lastName": "Moreno",
+            "birthdate": "10/08/1989",
+            "email": "paola.moreno@example.com",
+            "hasJudicialRecords": false
+        }
+    ]
+}
