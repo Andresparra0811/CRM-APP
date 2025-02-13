@@ -14,7 +14,7 @@
             "lastName": "Rincon",
             "birthdate": "12/15/2001",
             "email": "karen.rincon@example.com",
-            "hasJudicialRecords": true
+            "hasJudicialRecords": false
         },
         {
             "nationalId": "3",
@@ -22,7 +22,7 @@
             "lastName": "Johnson",
             "birthdate": "09/30/1992",
             "email": "alice.johnson@example.com",
-            "hasJudicialRecords": false
+            "hasJudicialRecords": true
         },
         {
             "nationalId": "4",
