@@ -23,3 +23,6 @@ export interface ExternalSystem {
 export interface ScoringSystem {
     getScore: (lead: Lead) => Promise<number>
 }
+export interface ValidationStrategy {
+    validate: (lead: Lead) => Promise<ValidationResult>
+  }

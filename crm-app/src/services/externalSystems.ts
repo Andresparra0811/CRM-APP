@@ -1,5 +1,5 @@
 // Import necessary types for the external systems, leads, and validation results
-import type { ExternalSystem, Lead, ValidationResult, ScoringSystem } from "../types"
+import type { ExternalSystem, Lead, ValidationResult } from "../types"
 // Import mock data from a JSON file for validation purposes
 import nationalRegistryData from "../data/nationalRegistry.json"
 
@@ -83,9 +83,4 @@ export const judicialRecordsSystem: ExternalSystem = {
     },
 }
 
-export const prospectQualificationSystem: ScoringSystem = {
-    async getScore(lead: Lead): Promise<number> {
-        await delay(200)
-        return Math.floor(Math.random() * 101)
-    },
-}
+
