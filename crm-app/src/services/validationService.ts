@@ -7,7 +7,7 @@ export class LeadValidator {
 
     private calculateScore(lead: Lead): number {
         // Este es un cálculo de ejemplo. Puedes ajustarlo según tus necesidades.
-        const score = Math.floor(Math.random() * 101)// Score base entre 30 y 70
+        const score = Math.floor(Math.random() * 101) + 70// Score base entre 30 y 70
         return Math.min(score, 100) // Aseguramos que el score máximo sea 100
     }
 
