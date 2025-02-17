@@ -8,6 +8,7 @@
 4. [Assumptions and Decisions](#assumptions-and-decisions)
 5. [Installation Process](#installation-process)
 6. [User Manual](#user-manual)
+7. [Opportunities for Improvement and Challenges](#opportunities-for-improvement-and-challenges)
 
 ## Context
 The current CRM used by sales agents requires manual validation of leads through external systems, causing inefficiencies and delays in converting leads into prospects. 
@@ -250,4 +251,25 @@ This section explains how to use the CRM system, detailing its main functionalit
 
 - **Video Tutorial**:  
 [![Título del video](https://img.youtube.com/vi/JahfI-HZ4Q4/0.jpg)](https://www.youtube.com/watch?v=JahfI-HZ4Q4)
+
+## Opportunities for Improvement and Challenges
+
+- **Security and Handling of Personal Information**: It would be beneficial to implement a login page using technologies such as JWT or OAuth 2.0 to ensure that personal information is handled with the highest level of security. It is crucial that PII (Personally Identifiable Information) is treated carefully and stored in accordance with applicable regulations.
+
+- **Enhancing CRUD Functionality and User Management**: The ability to edit could be implemented to complete the basic CRUD operations. Additionally, it is recommended to include the possibility of managing different user types, each with specific permissions: some users could only view data, while administrators could edit and delete data.
+
+- **Search Optimization**: Adding filters to the search bar would allow users to conduct more specific and detailed searches, improving the overall user experience.
+
+- **Expanding CRM Functionality**: It would be beneficial to create more pages within the CRM and connect them so that users can view graphs and perform more comprehensive sales analysis.
+
+- **Improving the Scoring System**: Instead of generating a random score, a business logic could be implemented to consider factors such as purchase history, income, or age, making the score more representative and accurate.
+
+- **Optimizing Code with CSS Libraries**: To improve code quality, it is recommended to make use of CSS libraries that simplify and better structure the code, making it easier to maintain and read.
+
+- **Unit Testing**: Unit tests should be performed on all components and hooks to ensure that each part of the system functions correctly and independently.
+
+- **Project Scalability**: As the project grows, it is important to consider reorganizing files and code by function, which would facilitate scalability and maintenance.
+
+- **Challenges in Code Refactoring**: One of the greatest challenges I faced was refactoring the code. Initially, only two hooks were used, but by following SOLID principles, I decided to refactor the code into several hooks, making it more modular and scalable.
+
 
