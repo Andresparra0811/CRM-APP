@@ -5,6 +5,9 @@
 1. [Context](#context)
 2. [Requirements](#requirements)
 3. [Technologies and Tools](#technologies-and-tools)
+4. [Assumptions and Decisions](#assumptions-and-decisions)
+5. [Installation Process](#installation-process)
+6. [User Manual](#user-manual)
 
 ## Context
 The current CRM used by sales agents requires manual validation of leads through external systems, causing inefficiencies and delays in converting leads into prospects. 
@@ -24,7 +27,6 @@ This project automates the validation process by implementing an integrated solu
 2. Provide a clean, intuitive, and responsive interface for users.
 3. Ensure adherence to best practices in frontend development using JavaScript frameworks.
 4. Document the system thoroughly for ease of understanding and maintainability.
-5. 
 6. Do not use CSS frameworks.
 7. Do not develop a server side solution.
    
