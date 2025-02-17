@@ -5,6 +5,7 @@ export interface Lead {
     firstName: string
     lastName: string
     email: string
+    failureReason?: string
 }
 
 export interface Prospect extends Lead {
@@ -25,4 +26,4 @@ export interface ScoringSystem {
 }
 export interface ValidationStrategy {
     validate: (lead: Lead) => Promise<ValidationResult>
-  }
+}
