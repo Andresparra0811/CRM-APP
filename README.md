@@ -188,4 +188,64 @@ Follow these steps to set up and run the project locally:
 - Git (to clone the repository)
 
 With these steps, you can successfully install and run the project on your local environment.
+## User Manual
+
+This section explains how to use the CRM system, detailing its main functionalities. Each functionality includes a brief description and a video tutorial for clarity.
+
+---
+
+### **1. Creating a Lead Through the Form**
+
+- **Description**:  
+  Users can create a new Lead by filling out the following mandatory fields in the form:  
+  - **National ID**: Must be a numeric value.  
+  - **Birthdate**: Must follow the `MM/DD/YYYY` format.  
+  - **First Name**: Lead's first name.  
+  - **Last Name**: Lead's last name.  
+  - **Email**: Must have a valid email format (e.g., example@domain.com).  
+
+  All fields are required to successfully create a Lead.
+
+- **Video Tutorial**:  
+[![CRM APP Create a Lead](https://img.youtube.com/vi/3pjxcB2i2jU/0.jpg)](https://www.youtube.com/watch?v=3pjxcB2i2jU)
+---
+
+### **2. Validating a Lead**
+
+- **Description**:  
+  The validation process consists of three steps:  
+  1. Verify that the data matches with external systems.  
+  2. Ensure that the Lead has no judicial records.  
+  3. Check if the Score is greater than 60.  
+
+- **Subsections**:  
+
+  **2.1 Successful Validation**  
+  - If the validation succeeds, the Lead is converted into a Prospect, and the card is moved to the "Prospects" section.  
+
+  **2.2 Failed Validation**  
+  - If the validation fails:  
+    - The button status changes to "Failed," and it becomes disabled.  
+    - A message is displayed indicating why the validation failed, such as mismatched data or insufficient Score.  
+
+- **Video Tutorial**:  
+[![Título del video](https://img.youtube.com/vi/KJzjQy4fr1E/0.jpg)](https://www.youtube.com/watch?v=KJzjQy4fr1E)
+---
+
+### **3. Search Bar**
+
+- **Description**:  
+  The search bar allows users to find Leads or Prospects by **name** or **email**. Only cards that match the search criteria will be displayed.
+
+- **Video Tutorial**:  
+[![Título del video](https://img.youtube.com/vi/X0cHWa9zAEU/0.jpg)](https://www.youtube.com/watch?v=X0cHWa9zAEU)
+---
+
+### **4. Delete Button for Prospects or Leads**
+
+- **Description**:  
+  Users can delete a Lead or Prospect by clicking the delete button on the corresponding card. Once deleted, the card is removed from the system.
+
+- **Video Tutorial**:  
+[![Título del video](https://img.youtube.com/vi/JahfI-HZ4Q4/0.jpg)](https://www.youtube.com/watch?v=JahfI-HZ4Q4)
 
