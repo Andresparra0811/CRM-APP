@@ -11,7 +11,7 @@ function App() {
         <CRMDashboard />
       </main>
       <footer className="app-footer">
-        <p>&copy; 2023 CRM System. All rights reserved.</p>
+        <p>&copy; 2025 CRM System. All rights reserved.</p>
       </footer>
     </div>
   )
