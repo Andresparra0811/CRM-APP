@@ -1,6 +1,6 @@
 "use client"
 
-import { useCallback } from "react"
+import { useCallback, useMemo } from "react"
 import { useLeads } from "./useLeads"
 import { useProspects } from "./useProspects"
 import { LeadValidator } from "../services/validationService"
@@ -10,7 +10,7 @@ import { nationalRegistrySystem, judicialRecordsSystem } from "../services/exter
 export function useCRM() {
   const { leads, addLead, removeLead } = useLeads()
   const { prospects, addProspect, removeProspect } = useProspects()
-  const leadValidator = new LeadValidator([nationalRegistrySystem, judicialRecordsSystem])
+  const leadValidator = useMemo(() => new LeadValidator([nationalRegistrySystem, judicialRecordsSystem]), [])
 
   // Add a new function called validateAndConvertLead that takes a leadId and validates the lead
   const validateAndConvertLead = useCallback(
